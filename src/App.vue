@@ -48,6 +48,10 @@ export default {
   transition: all 0.3s ease-out;
 }
 
+nav {
+  order: 1;
+}
+
 #map {
   display: none;
 }
@@ -61,6 +65,9 @@ export default {
   #map {
     display: block;
     flex: 1 100%;
+  }
+  nav {
+    order: 0;
   }
 }
 </style>

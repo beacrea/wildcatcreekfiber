@@ -35,7 +35,7 @@ a {
   display: inline-block;
   position: relative;
   text-decoration: none;
-  padding: 2.4rem;
+  padding: 2.4rem 0.8rem;
   flex: 1 auto;
   font-size: 1.6rem;
   text-align: center;
