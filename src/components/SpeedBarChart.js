@@ -6,14 +6,34 @@ export default {
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      labels: ['This Community', 'Kansas', 'Avg. US', 'World'],
       datasets: [
         {
-          label: 'Speed',
+          title: 'Download Speeds (Mbps)',
           backgroundColor: 'rgb(81, 40, 136)',
-          data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
+          data: [3.5, 42.6, 64.17, 40]
         }
       ]
+    }, {
+      title: {
+        display: true,
+        text: 'Comparative Download Speeds (mbps)',
+        fontSize: 18,
+        padding: 16
+      },
+      legend: {
+        display: false,
+        labels: {
+          fontColor: 'rgb(255, 99, 132)'
+        }
+      },
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero: true
+          }
+        }]
+      }
     })
   }
 }
