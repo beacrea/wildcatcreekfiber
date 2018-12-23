@@ -1,8 +1,10 @@
 <template>
   <div id="navigation">
     <nav>
-      <v-link href="/">Home</v-link>
-      <v-link href="/about">About</v-link>
+      <v-link href="/">Overview</v-link>
+      <v-link href="/about">Stats</v-link>
+      <v-link href="/">Service</v-link>
+      <v-link href="/">Contact</v-link>
     </nav>
   </div>
 </template>
@@ -30,12 +32,22 @@
   #navigation {
     background: black;
     color: white;
-    padding: 24px;
+    nav {
+      display: flex;
+    }
   }
   a {
-    margin: 0 24px;
+    margin: 1.6rem 2.4rem;
+    flex: 1 auto;
     text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: white;
     &:active, &:visited {
+      color: white;
+    }
+    &.active {
       color: orange;
     }
   }
