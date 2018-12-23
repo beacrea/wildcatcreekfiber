@@ -1,21 +1,5 @@
 <template>
   <div id="about">
-    <section id="intro">
-      <header>
-        <h1>Coty Beasley</h1>
-        <h2>I'm a product designer based in San Francisco.</h2>
-        <h3>I specialize in digital product strategy and interaction.</h3>
-      </header>
-      <img src="/static/img/arrow-down.png" class="downArrow" alt="">
-    </section>
-    <section id="qa1">
-      <header>
-        <h1>Coty Beasley</h1>
-        <h2>I'm a product designer based in San Francisco.</h2>
-        <h3>I specialize in digital product strategy and interaction.</h3>
-      </header>
-      <img src="/static/img/arrow-down.png" class="downArrow" alt="">
-    </section>
   </div>
 </template>
 
@@ -36,8 +20,6 @@ export default {
 
 #about {
   padding: $padding_side;
-  background: url('/static/img/about-bg.png') no-repeat top left;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
