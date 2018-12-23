@@ -69,6 +69,7 @@ nav {
     flex: 1 100%;
     position: relative;
     .title {
+      margin: 2.4rem;
       position: absolute;
       background: black;
       font-size: 1.6rem;
