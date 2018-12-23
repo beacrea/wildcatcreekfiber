@@ -37,6 +37,7 @@ export default {
   width: 100%;
   color: $color_light;
   background: grey;
+  transition: all 0.3s ease-out;
 }
 
 #map {

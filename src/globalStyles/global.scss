@@ -17,13 +17,16 @@ Base styles
 body, html {
   height: 100%;
   width: 100%;
-}
-
-// Prototype
-// TODO: Remove this for prod
-html, body {
   background-color: darken($color_grey, 30%);
 }
+
 #app {
   margin: auto;
+}
+
+.page {
+  padding: $padding_side;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
 }
