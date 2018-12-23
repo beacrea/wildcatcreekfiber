@@ -5,7 +5,7 @@
       <router-view/>
     </div>
     <div id="map">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet beatae deleniti doloremque enim est ex excepturi ipsam nam, natus necessitatibus neque placeat praesentium provident quaerat quod sint tempora ullam.</p>
+      <iframe src="https://api.mapbox.com/styles/v1/wcfp/cjq10iet01waa2rqjv4f6uuuu.html?fresh=true&title=true&access_token=pk.eyJ1Ijoid2NmcCIsImEiOiJjanExMGd1aDYwc2w3NDJyMXlhNGpwd3NsIn0.kzJ7I0HYbEkzhKAN4cmB-Q#14.1/39.181795/-96.669735/0" frameborder="0" width="100%" height="100%"></iframe>
     </div>
   </div>
 </template>
@@ -51,6 +51,7 @@ export default {
   }
   #map {
     display: block;
+    flex: 1 100%;
   }
 }
 </style>

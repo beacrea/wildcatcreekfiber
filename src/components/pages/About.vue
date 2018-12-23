@@ -1,5 +1,6 @@
 <template>
   <div id="about">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolor eius ex quam! Consectetur ipsum odio reprehenderit voluptatibus voluptatum. Animi architecto consectetur quaerat soluta. Dicta illum laudantium libero nulla rem!</p>
   </div>
 </template>
 
