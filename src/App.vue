@@ -4,18 +4,27 @@
       <Navigation></Navigation>
       <router-view/>
     </div>
-    <div id="map">
-      <iframe src="https://api.mapbox.com/styles/v1/wcfp/cjq10iet01waa2rqjv4f6uuuu.html?fresh=true&title=true&access_token=pk.eyJ1Ijoid2NmcCIsImEiOiJjanExMGd1aDYwc2w3NDJyMXlhNGpwd3NsIn0.kzJ7I0HYbEkzhKAN4cmB-Q#14.1/39.181795/-96.669735/0" frameborder="0" width="100%" height="100%"></iframe>
-    </div>
+    <div id="map"></div>
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import mapboxgl from 'mapbox-gl'
 
 export default {
   components: {Navigation},
-  name: 'App'
+  name: 'App',
+  mounted: function () {
+    mapboxgl.accessToken = 'pk.eyJ1Ijoid2NmcCIsImEiOiJjanExMGd1aDYwc2w3NDJyMXlhNGpwd3NsIn0.kzJ7I0HYbEkzhKAN4cmB-Q'
+    // eslint-disable-next-line
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/wcfp/cjq10iet01waa2rqjv4f6uuuu',
+      center: [-96.669735, 39.181795],
+      zoom: 14.1
+    })
+  }
 }
 </script>
 
