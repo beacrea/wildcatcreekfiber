@@ -17,7 +17,7 @@ Base styles
 body, html {
   height: 100%;
   width: 100%;
-  background-color: darken($color_grey, 30%);
+  background-color: lighten(black, 5%);
 }
 
 #app {
@@ -29,4 +29,5 @@ body, html {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
+  background: darken(white, 2%);
 }

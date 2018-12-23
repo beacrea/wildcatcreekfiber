@@ -24,8 +24,7 @@ $p_size: 1.6rem;
 
 h1 {
   font-size: $h1_size;
-  font-family: 'Vollkorn', serif;
-  color: $color_accent1;
+  color: map-get($colors-theme, text-dark);
   font-weight: 600;
   line-height: 1;
   text-shadow: 0 0 10px rgba(240,96,103,0.32);

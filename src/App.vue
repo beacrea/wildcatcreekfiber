@@ -35,8 +35,7 @@ export default {
   height: 100%;
   max-width: 100%;
   width: 100%;
-  color: $color_light;
-  background: grey;
+  color: map-get($colors-theme, text-dark);
   transition: all 0.3s ease-out;
 }
 

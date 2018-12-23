@@ -1,13 +1,14 @@
 <template>
   <nav id="navigation">
-    <router-link to="intro">Intro</router-link>
+    <router-link to="overview">Overview</router-link>
     <router-link to="stats">Stats</router-link>
+    <router-link to="service">Service</router-link>
+    <router-link to="contact">Contact</router-link>
   </nav>
 </template>
 
 <script>
 export default {
-  components: {},
   data () {
     return {
       msg: 'This is a message'
@@ -21,14 +22,8 @@ export default {
 @import "../globalStyles/global";
 
 #navigation {
-  $height: 6.4rem;
-
   background: black;
-  color: $color_light;
-  padding: 1.2rem $padding_side;
-  max-height: $height;
-  min-height: $height;
-  height: $height;
+  color: map-get($colors-theme, text-light);
   display: flex;
   align-items: center;
   * {
@@ -36,23 +31,36 @@ export default {
   }
 }
 a {
-  $inactiveColor: rgba(white, 0.4);
-
+  box-sizing: border-box;
   display: inline-block;
+  position: relative;
   text-decoration: none;
-  padding: 0.4rem 0.8rem;
+  padding: 2.4rem;
   flex: 1 auto;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
-  margin-right: $padding_side/3;
-  border-radius: 1.2rem;
-  border: 1px solid $inactiveColor;
-  color: $inactiveColor;
+  border-radius: 4px;
+  font-weight: 600;
+  color: rgba(white, 0.5);
+  transition: all 0.5s ease-in-out;
+  &:after {
+    $border-height: 4px;
+    content: '';
+    position: absolute;
+    bottom: $border-height - 2;
+    display: block;
+    height: $border-height;
+    width: 100%;
+    background: transparent;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+  }
   &.router-link-active {
-    color: $color_light;
-    background: $color_accent1;
-    border-color: rgba(255,255,255,0.23);
-    box-shadow: 0 0 4px 0 rgba(240,96,103,0.62), 0 0 20px 0 rgba(240,96,103,0.20), 0 0 4px 0 rgba(0,0,0,0.50), inset 0 2px 3px 0 rgba(0,0,0,0.03);
+    color: white;
+    border-color: map-get($colors-theme, accent);
+    &:after {
+      background-color: lighten(map-get($colors-theme, accent), 25%);
+    }
   }
 }
 </style>
