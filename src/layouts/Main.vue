@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <Nav></Nav>
-    <main>
-      <slot></slot>
-    </main>
+    <div id="contentBody">
+      <Nav></Nav>
+      <main>
+        <slot></slot>
+      </main>
+    </div>
   </div>
 </template>
 
@@ -21,9 +23,32 @@
   // Imports
   @import "../globalStyles/global";
 
-  #app {
+  #app, main {
     display: flex;
+    height: 100%;
+  }
+
+  main {
     flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  #contentBody {
+    background: white;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    transition: all 0.3s ease-out;
+    display: flex;
+    flex-flow: column;
+  }
+
+  @media screen and (min-width: 70rem) {
+    #contentBody {
+      width: 40%;
+      max-width: 768px;
+    }
   }
 
   main {

@@ -1,1 +1,13 @@
+// Padding
 $padding_side: 24px;
+
+// Colors
+$colors-wildcat: (
+  purple: rgb(81, 40, 136),
+  grey: rgb(167,167,167),
+  grey-light: rgb(209,209,209)
+);
+
+$colors-theme: (
+  main: map-get($colors-wildcat, grey-light),
+);
