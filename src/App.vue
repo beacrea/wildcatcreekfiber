@@ -4,7 +4,9 @@
       <Navigation></Navigation>
       <router-view/>
     </div>
-    <div id="map"></div>
+    <div id="map">
+      <div class="title">Proposed Service Area</div>
+    </div>
   </div>
 </template>
 
@@ -65,6 +67,17 @@ nav {
   #map {
     display: block;
     flex: 1 100%;
+    position: relative;
+    .title {
+      position: absolute;
+      background: black;
+      font-size: 1.6rem;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      right: 0;
+      top: 0;
+      z-index: 2;
+    }
   }
   nav {
     order: 0;
