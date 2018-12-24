@@ -2,7 +2,7 @@
   <div id="overview" class="page">
     <header>
       <div class="title">
-        <div class="brandmark"></div>
+        <img src="/static/img/wcfp-brandmark.svg" alt="Wildcat Creek Fiber Project Brandmark" class="brandmark">
         <h1>Wildcat Creek Fiber Project</h1>
       </div>
     </header>
@@ -33,7 +33,17 @@ export default {
 @import "../../globalStyles/global";
 
 .title {
+  display: flex;
+  align-items: center;
+  h1 {
+    margin: 0;
+  }
   & > * {
+    display: inline-block;
+  }
+  .brandmark {
+    max-width: 3.2rem;
+    margin: 0 1rem 0 0;
     display: inline-block;
   }
 }
