@@ -20,9 +20,30 @@
     </section>
     <section>
       <h2>What other communities have done this?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur maiores quae repellat temporibus ut? Culpa delectus, deleniti expedita facilis, itaque magnam molestiae nobis obcaecati possimus, qui quod sed ut.</p>
+      <p>The technology used to accomplish this is called a point-to-point fixed wireless network. The equipment required to build this type of network has recently become far less expensive, enabling communities to organize and construct the infrastructure that traditional service providers aren't identified to build.</p>
+      <p>Here are a couple good resources to understand things better:</p>
+      <a href="https://arstechnica.com/information-technology/2015/11/how-a-group-of-neighbors-created-their-own-internet-service/" target="_blank" class="article btn">
+        <span class="thumbnail"></span>
+        <span class="title">How a group of neighbors created their own Internet service</span>
+      </a>
+      <a href="https://www.dailymail.co.uk/sciencetech/article-3459003/Now-S-wifi-booster-150-antenna-lets-share-network-25km-need-built-mast-it.html" target="_blank" class="article btn">
+        <span class="thumbnail"></span>
+        <span class="title">$150 antenna lets you share data over 25km</span>
+      </a>
+      <a href="https://www.fluidmesh.com/point-to-point-wireless" target="_blank" class="article btn">
+        <span class="thumbnail"></span>
+        <span class="title">What is point-to-point wireless internet?</span>
+      </a>
+      <a href="http://www.wispa.org/About-Us/Mission-and-Goals" target="_blank" class="article btn">
+        <span class="thumbnail"></span>
+        <span class="title">Wireless Internet Service Provider Association</span>
+      </a>
     </section>
-    <a href="https://cotybeasley.typeform.com/to/oM0Dyu" target="_blank" class="cta btn">Participate in this study</a>
+    <section>
+      <h2>We need your help</h2>
+      <p>This project is still in a research phase as we assess market demand as well as network build-out strategies. If you'd like to help out, please fill out this survey and you'll be added to our update list as the project progresses. Thanks!</p>
+      <a href="https://cotybeasley.typeform.com/to/oM0Dyu" target="_blank" class="cta btn">Participate in this study</a>
+    </section>
   </div>
 </template>
 
@@ -74,6 +95,17 @@ section {
     margin: 0 1rem 0 0;
     display: inline-block;
   }
+}
+
+.article {
+  display: block;
+  padding: 1.6rem;
+  background: white;
+  margin-bottom: 1.6rem;
+  color: white;
+  background: map-get($colors-theme, accent);
+  border-radius: 4px;
+  font-style: italic;
 }
 
 a.cta {
