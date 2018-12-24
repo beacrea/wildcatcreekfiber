@@ -28,5 +28,6 @@ $colors-theme: (
   main: map-get($colors-wildcat, grey-light),
   accent: map-get($colors-wildcat, purple),
   text-light: map-get($colors-wildcat, grey),
-  text-dark: "#222"
+  text-dark: #222,
+  cta: #FFA238
 );
