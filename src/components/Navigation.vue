@@ -2,7 +2,7 @@
   <nav id="navigation">
     <router-link to="overview">Overview</router-link>
     <router-link to="stats">Stats</router-link>
-    <router-link to="service">Service</router-link>
+    <!--<router-link to="service">Service</router-link>-->
     <router-link to="contact">Contact</router-link>
   </nav>
 </template>

@@ -32,12 +32,39 @@ body, html {
   background: darken(white, 2%);
 }
 
+// Images and links
+
+a > img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+  position: relative;
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 4px 10px 0px rgba(0,0,0,0.225);
+  }
+}
+
+.caption {
+  display: block;
+  margin-top: 0.8rem;
+}
+
 img {
   max-width: 100%;
   border-radius: 4px;
-  margin-bottom: 1.6rem;
+  border: 1px solid rgba(black, 0.2);
 }
 
 a, a:visited, a:active {
   text-decoration: none;
+}
+
+.btn {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 4px 10px 0px rgba(0,0,0,0.225);
+  }
 }

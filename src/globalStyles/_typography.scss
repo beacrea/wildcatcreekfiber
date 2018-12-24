@@ -30,9 +30,18 @@ h1 {
 
 h2 {font-size: 2.369rem;}
 
-h3, .body, p, span, a {font-size: 1.777rem;}
+h3, .body, p, span, a {
+  font-size: 1.777rem;
+}
 
-small, .font_small {font-size: 0.75rem;}
+.body, p {
+  line-height: 1.5;
+}
+
+small, .font_small {
+  font-size: 1.4rem;
+  font-style: italic;
+}
 
 
 /* - - - - -
