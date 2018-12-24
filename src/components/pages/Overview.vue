@@ -5,8 +5,9 @@
         <img src="/static/img/wcfp-brandmark.svg" alt="Wildcat Creek Fiber Project Brandmark" class="brandmark">
         <h1>Wildcat Creek Fiber Project</h1>
       </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad, asperiores consequuntur culpa cupiditate debitis dicta doloribus eius enim fugit, harum, ipsum laborum pariatur provident quae quidem tenetur veritatis voluptates.</p>
+      <a href="https://cotybeasley.typeform.com/to/oM0Dyu" target="_blank" class="cta">Sign up for updates</a>
     </header>
-    <a href="https://cotybeasley.typeform.com/to/oM0Dyu" target="_blank" class="cta">Sign up for updates</a>
     <div class="mapp-small">
       <h2>Proposed Service Area in Evaluation</h2>
       <img src="/static/img/servicemap.jpg" alt="Proposed area for service">
@@ -32,6 +33,11 @@ export default {
 // Imports
 @import "../../globalStyles/global";
 
+header {
+  border-bottom: 1px solid rgba(black, 0.2);
+  padding-bottom: 1.6rem;
+  margin-bottom: 3.2rem;
+}
 .title {
   display: flex;
   align-items: center;
