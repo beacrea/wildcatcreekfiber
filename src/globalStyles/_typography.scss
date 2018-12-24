@@ -16,32 +16,23 @@ html, body {
 /* - - - - - - - - -
 Font sizes (default)
 - - - - - - - - - */
-/* Vars */
-$h1_size: 6.4rem;
-$h2_size: 2.4rem;
-$h3_size: 1.8rem;
-$p_size: 1.6rem;
+
+h1, h2, h3, h4 {
+  margin: 1.414rem 0 0.5rem;
+  font-weight: inherit;
+  line-height: 1.2;
+}
 
 h1 {
-  font-size: $h1_size;
-  color: map-get($colors-theme, text-dark);
-  font-weight: 600;
-  line-height: 1;
-  text-shadow: 0 0 10px rgba(240,96,103,0.32);
+  margin-top: 0;
+  font-size: 3.157rem;
 }
-h2 {
-  font-size: $h2_size;
-  font-weight: 300;
-  line-height: 1.2;
-  text-shadow: 0 0 10px rgba(240,234,227,0.24);
-}
-h3 {
-  font-size: $h3_size;
-  font-weight: 300;
-  line-height: 1.2;
-  opacity: 0.75;
-}
-p, span, a { font-size: $p_size; }
+
+h2 {font-size: 2.369rem;}
+
+h3, .body, p, span, a {font-size: 1.777rem;}
+
+small, .font_small {font-size: 0.75rem;}
 
 
 /* - - - - -
