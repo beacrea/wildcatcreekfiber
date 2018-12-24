@@ -24,10 +24,17 @@ $colors-wildcat: (
 /* - - - - -
 Site colors
 - - - - - */
+$color-blue: #3487C7;
+$color-green: #3B9951;
+$color-orange: #FFA238;
+$color-purple: rgb(81, 40, 136);
+
 $colors-theme: (
   main: map-get($colors-wildcat, grey-light),
   accent: map-get($colors-wildcat, purple),
+  accent-alt-a: $color-blue,
+  accent-alt-b: $color-green,
   text-light: map-get($colors-wildcat, grey),
   text-dark: #222,
-  cta: #FFA238
+  cta: $color-orange
 );
