@@ -23,20 +23,28 @@
       <p>The technology used to accomplish this is called a point-to-point fixed wireless network. The equipment required to build this type of network has recently become far less expensive, enabling communities to organize and construct the infrastructure that traditional service providers aren't identified to build.</p>
       <p>Here are a couple good resources to understand things better:</p>
       <a href="https://arstechnica.com/information-technology/2015/11/how-a-group-of-neighbors-created-their-own-internet-service/" target="_blank" class="article btn">
-        <span class="thumbnail"></span>
-        <span class="title">How a group of neighbors created their own Internet service</span>
+        <div class="thumbnail">
+          <img src="/static/img/newspaper-light.svg" alt="Newspaper article">
+        </div>
+        <div class="title">How a group of neighbors created their own Internet service</div>
       </a>
       <a href="https://www.dailymail.co.uk/sciencetech/article-3459003/Now-S-wifi-booster-150-antenna-lets-share-network-25km-need-built-mast-it.html" target="_blank" class="article btn">
-        <span class="thumbnail"></span>
-        <span class="title">$150 antenna lets you share data over 25km</span>
+        <div class="thumbnail">
+          <img src="/static/img/newspaper-light.svg" alt="Newspaper article">
+        </div>
+        <div class="title">$150 antenna lets you share data over 25km</div>
       </a>
       <a href="https://www.fluidmesh.com/point-to-point-wireless" target="_blank" class="article btn">
-        <span class="thumbnail"></span>
-        <span class="title">What is point-to-point wireless internet?</span>
+        <div class="thumbnail">
+          <img src="/static/img/newspaper-light.svg" alt="Newspaper article">
+        </div>
+        <div class="title">What is point-to-point wireless internet?</div>
       </a>
       <a href="http://www.wispa.org/About-Us/Mission-and-Goals" target="_blank" class="article btn">
-        <span class="thumbnail"></span>
-        <span class="title">Wireless Internet Service Provider Association</span>
+        <div class="thumbnail">
+          <img src="/static/img/newspaper-light.svg" alt="Newspaper article">
+        </div>
+        <div class="title">Wireless Internet Service Provider Association</div>
       </a>
     </section>
     <section>
@@ -101,14 +109,29 @@ section {
 }
 
 .article {
-  display: block;
-  padding: 1.6rem;
+  display: flex;
   background: white;
   margin-bottom: 1.6rem;
   color: white;
   background: map-get($colors-theme, accent);
   border-radius: 4px;
   font-style: italic;
+  .title {
+    padding: 1.6rem;
+  }
+  .thumbnail {
+    background: rgba(white, 0.5);
+    min-width: 6.4rem;
+    max-width: 6.4rem;
+    width: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 60%;
+      border: 0;
+    }
+  }
 }
 
 a.cta {
