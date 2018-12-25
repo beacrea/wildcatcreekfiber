@@ -84,6 +84,9 @@ section {
 .title {
   display: flex;
   align-items: center;
+  img {
+    border: none;
+  }
   h1 {
     margin: 0;
   }
