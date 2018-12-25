@@ -1,6 +1,41 @@
 <template>
   <div id="contact" class="page">
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consectetur cupiditate deserunt est eveniet explicabo impedit ipsum iure maiores minima minus natus, odio optio praesentium quidem ratione repellendus tenetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cumque ipsam iusto quisquam sunt tempora ullam vitae! Accusantium ad animi consequatur ea eligendi nihil pariatur provident reiciendis saepe similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur autem debitis, eligendi facilis ipsa ipsum nam, non nulla odit omnis recusandae ullam, voluptatum! Earum esse recusandae reprehenderit repudiandae velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae culpa debitis libero pariatur perferendis quis sunt tempora veniam voluptates. Assumenda dolores error fugit inventore quis! Consequatur dolorum eligendi laudantium. </span>
+    <section>
+      <h3>Community Representative</h3>
+      <div class="user-card btn">
+        <div class="thumbnail">
+          <img src="/static/img/cbeasley.png" alt="Coty Beasley" class="">
+        </div>
+        <div class="info">
+          <div class="name">Coty Beasley</div>
+          <div class="title">Main Contact</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Network Operator</h3>
+      <div class="user-card btn">
+        <div class="thumbnail placeholder">
+          <img src="/static/img/user-light.svg" alt="Placeholder Contact">
+        </div>
+        <div class="info">
+          <div class="name">Coty Beasley</div>
+          <div class="title">Main Contact</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Service Provider</h3>
+      <div class="user-card btn">
+        <div class="thumbnail placeholder">
+          <img src="/static/img/user-light.svg" alt="Placeholder Contact">
+        </div>
+        <div class="info">
+          <div class="name">Coty Beasley</div>
+          <div class="title">Main Contact</div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -9,11 +44,39 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 // Imports
 @import "../../globalStyles/imports";
 @import "../../globalStyles/vars";
 
-#contact {
+.user-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 100%;
+    border: 0;
+  }
+  .thumbnail {
+    height: 6.4rem;
+    width: 6.4rem;
+    min-height: 6.4rem;
+    min-width: 6.4rem;
+    border-radius: 100%;
+    border: 1px solid rgba(black, 0.2);
+    overflow: hidden;
+    margin: 0.8rem 1.6rem;
+    &.placeholder {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 50%;
+      }
+    }
+  }
+  .info {
+    width: 100%;
+  }
 }
 </style>
