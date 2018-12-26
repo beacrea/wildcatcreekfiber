@@ -1,8 +1,8 @@
 // CommitChart.js
-import { Bar } from 'vue-chartjs'
+import { HorizontalBar } from 'vue-chartjs'
 
 export default {
-  extends: Bar,
+  extends: HorizontalBar,
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({
