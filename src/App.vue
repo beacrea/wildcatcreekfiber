@@ -51,7 +51,7 @@ export default {
 }
 
 nav {
-  order: 1;
+  order: 0;
 }
 
 #map {
@@ -79,9 +79,6 @@ nav {
       top: 0;
       z-index: 2;
     }
-  }
-  nav {
-    order: 0;
   }
 }
 </style>
