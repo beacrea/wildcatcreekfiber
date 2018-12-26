@@ -133,17 +133,4 @@ section {
     }
   }
 }
-
-a.cta {
-  display: block;
-  background: map-get($colors-theme, cta);
-  color: darken(map-get($colors-theme, cta), 40%);
-  padding: 1.6rem 2.4rem;
-  text-align: center;
-  border-radius: 4px;
-  font-weight: bold;
-  line-height: 1;
-  margin: 1.6rem 0;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
 </style>
