@@ -85,10 +85,6 @@ header {
     font-size: 1.4rem;
   }
 }
-
-section {
-  margin-bottom: 4.8rem;
-}
 .title {
   display: flex;
   align-items: center;
@@ -120,7 +116,7 @@ section {
     padding: 1.6rem;
   }
   .thumbnail {
-    background: rgba(white, 0.5);
+    background: rgba(black, 0.3);
     min-width: 6.4rem;
     max-width: 6.4rem;
     width: 6.4rem;

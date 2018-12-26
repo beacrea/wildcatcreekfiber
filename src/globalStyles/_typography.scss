@@ -41,6 +41,10 @@ h3, .body, p, span, a {
 small, .font_small {
   font-size: 1.4rem;
   font-style: italic;
+  line-height: 1.5;
+  a {
+    font-size: 1.4rem;
+  }
 }
 
 

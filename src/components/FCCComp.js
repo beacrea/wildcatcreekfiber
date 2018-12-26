@@ -1,22 +1,22 @@
 // CommitChart.js
-import { Bar } from 'vue-chartjs'
+import { HorizontalBar } from 'vue-chartjs'
 
 export default {
-  extends: Bar,
+  extends: HorizontalBar,
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({
-      labels: ['Community Avg', 'Kansas', 'Avg US', 'World'],
+      labels: ['Resident Avg', 'Service Provider Promised', 'FCC Area Report'],
       datasets: [
         {
           title: 'Download Speeds (Mbps)',
           backgroundColor: 'rgb(81, 40, 136)',
-          data: [3.5, 42.6, 64.17, 40]
+          data: [3.5, 6, 25]
         }
       ]
     }, {
       title: {
-        display: true,
+        display: false,
         text: 'Comparative Download Speeds (mbps)*',
         fontSize: 18,
         padding: 16
@@ -39,7 +39,7 @@ export default {
         mode: 'single',
         callbacks: {
           label: function (tooltipItems, data) {
-            return tooltipItems.yLabel + ' mbps'
+            return tooltipItems.xLabel + ' mbps'
           }
         }
       }
