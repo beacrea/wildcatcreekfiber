@@ -12,8 +12,8 @@
     </section>
     <section>
       <h2>Conclusion</h2>
-      <p>Traditional service providers are currently not providing the service they're promising residents and available service speeds being reported at a federal level are much lower than reality. These realities have both decentralized service providers from expanding their service and federal enforcement from identifying there's an issue.</p>
-      <p>As such, residents will need to be proactive in order to create a better outcome for themselves. This project's goal is to statically highlight these issues in order to build a body of research that identifies an attractive market for an alternative network operator and service provider using emerging technologies to deliver service.</p>
+      <p>Traditional service providers are currently not providing the service they're promising residents and available service speeds being reported at a federal level are much lower in actuality. These realities have both decentralized service providers from expanding their service and federal enforcement from identifying there's an issue.</p>
+      <p>As such, residents will need to be proactive in order to create a better outcome for themselves. This project's goal is to statically highlight these issues in order to build a body of research that identifies an attractive market for an alternative network operator and service provider using emerging technologies to deliver faster and more stable service.</p>
     </section>
   </div>
 </template>
