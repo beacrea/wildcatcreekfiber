@@ -1,5 +1,5 @@
 # Wildcat Creek Fiber Project
-This is the main code repo for the Wildcat Creek Fiber Project. This project aims to expand coverage from downtown Manhattan, KS into a less dense area that traditional ISPs have abondoned. By utilizing new technologies such as point-to-point networks that can beam internet from fiber service areas, the Wildcat Creek Community can have access to faster and more stable service than they currently receive.
+This is the main code repo for the Wildcat Creek Fiber Project. This project aims to expand coverage from downtown Manhattan, KS into a less dense area that traditional ISPs have abandoned. By utilizing new technologies such as point-to-point networks that can beam internet from fiber service areas, the Wildcat Creek Community can have access to faster and more stable service than they currently receive.
 
 The main goal of this project is to increase awareness, build community support, and create an attractive business opportunity for local service providers and network operators that want to expand coverage or create a foothold in the Manhattan market.
 
